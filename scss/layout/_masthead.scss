@@ -7,7 +7,9 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  @include background-cover;
+  background-size: cover;
+  //@include background-cover;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 
   .intro-text {
     padding-top: 100px;

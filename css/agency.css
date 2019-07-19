@@ -110,6 +110,7 @@ img::-moz-selection {
 
 #mainNav {
   background-color: #212529;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 #mainNav .navbar-toggler {
@@ -130,6 +131,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #1268f2;
+  text-shadow: 3px 3px 10px #4287f5;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -181,7 +183,8 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  height: 100vh;
+  background-size: cover;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 header.masthead .intro-text {
@@ -242,6 +245,8 @@ header.masthead .intro-text .intro-heading {
   max-width: 400px;
   margin: 0 auto;
   cursor: pointer;
+  -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
